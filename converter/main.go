@@ -26,6 +26,5 @@ func main() {
 		fmt.Printf("%s is %s and %s\n", c, tempconv.CToF(c), tempconv.CToK(c))
 		fmt.Printf("%s is %s and %s\n", k, tempconv.KToC(k), tempconv.KToF(k))
 
-		// fmt.Printf("%s = %s = %s, %s = %s = %s\n", f, tempconv.FToC(f), tempconv.FToK(f), c, tempconv.CToF(c), tempconv.CToK(c))
 	}
 }
